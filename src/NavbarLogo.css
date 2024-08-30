@@ -1,0 +1,8 @@
+.logo {
+    display: flex;
+      align-items: end;
+  }
+  
+  .logo img {
+    height: 1.5em;
+  }
