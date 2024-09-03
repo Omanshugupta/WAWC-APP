@@ -1,0 +1,117 @@
+.main{
+    padding:50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.pic img {
+    border-radius: 10%; 
+}
+
+
+.para{
+    display:flex;
+    justify-content:space-around;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.button1{
+    display: flex;
+    justify-content:space-around;
+      
+    align-items: center;
+}
+.button2{
+    display: flex;
+    justify-content:space-around;    
+    
+    align-items: center;
+}
+.buttoni{
+    background-color: darksalmon ;
+    color:white;
+    border-block-color: darksalmon;
+    padding-top:20px; 
+    text-align: center;
+    margin: 10px; 
+    height:50px;
+    width:200px;
+}
+.buttonii{
+    background-color: darksalmon ;
+    color:white;
+    border-block-color: darksalmon; 
+    padding-top:20px; 
+    margin: 10px;
+    text-align: center;
+    height:50px;
+    width:200px;
+}
+.buttoniii{
+    background-color: darksalmon ;
+    color:white;
+    border-block-color: darksalmon;
+    padding-top:20px; 
+    margin: 10px;
+    text-align: center; 
+    height:50px;
+    width:200px;
+}
+.buttonxi{
+    background-color: darksalmon ;
+    color:white;
+    border-block-color: darksalmon; 
+    padding-top:20px; 
+    margin: 10px;
+    text-align: center;
+    height:50px;
+    width:200px;
+}
+.buttonxii{
+    background-color: darksalmon ;
+    color:white;
+    border-block-color: darksalmon; 
+    text-align: center;
+    margin: 10px;
+    padding-top:20px; 
+    height:50px;
+    width:200px;
+}
+.buttonxiii{
+    background-color: darksalmon ;
+    color:white;
+    border-block-color: darksalmon; 
+    padding-top:20px;
+    margin: 10px; 
+    text-align: center;
+    height:50px;
+    width:200px;
+}
+@media (max-width: 768px) {
+    .para {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .button {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
