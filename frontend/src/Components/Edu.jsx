@@ -1,5 +1,5 @@
 import React from 'react';
-import Imge from './assets/img.jpg';
+import Imge from '../assets/img.jpg';
 import './Style.css'
 
 
@@ -14,7 +14,7 @@ function Edu() {
       <p style={{padding:'30px'}}>We offer a range of beauty and spa qualifications that are highly valued by employers worldwide.
       <br/><br/><br/>
       Our flexible programs, available for full-time, part-time, and online study, cater to diverse lifestyles and career goals.<br/> Whether you're a beginner or an experienced professional, we have the perfect course to elevate your skills and career prospects.</p>
-      <div className="pic"><img src={Imge} height={250} width={400}/></div>
+      <div className="pic"><img src={Imge} height={250} width={400} alt=""/></div>
       </div>
       <br/>
       <br/>
