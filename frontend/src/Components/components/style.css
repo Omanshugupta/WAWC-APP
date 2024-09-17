@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d6d6d6;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.875rem;
+}
+
+main.industry-guides {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem; 
+    background-image: url('page1background.jpg');
+    background-size: cover;
+    background-position: right center;
+    color: #b36b6b;
+    height: calc(100vh - 120px); 
+    overflow: hidden;
+}
+
+.text-content {
+    width: 60%;
+    padding: 1.25rem;
+}
+
+main.industry-guides h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+    color: black;
+}
+
+.description {
+    font-size: 1.125rem;
+    color: black;
+    margin-bottom: 1.25rem;
+}
+
+.guide-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.625rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+.guide-btn {
+    background-color: #f4d3d3;
+    padding: 1rem 1.5625rem;
+    font-size: 1.125rem;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.guide-btn a {
+    color: black;
+    text-decoration: none;
+}
+
+.guide-btn:hover {
+    border: 2px solid #f08c8c;
+}
+
+.view-all {
+    display: inline-block;
+    font-size: 1.25rem;
+    color: #f08c8c;
+    font-weight: bold;
+    margin-top: 0.625rem;
+}
+
+footer {
+    background-color: #f9f2f2;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    height: auto; 
+    flex-shrink: 0;
+}
+
+.footer-content {
+    padding: 0.5rem;
+}
+
+
+@media screen and (max-width: 48rem) {
+    main.industry-guides {
+        flex-direction: column;
+        background-position: center;
+        height: calc(100vh - 100px);
+    }
+
+    .text-content {
+        width: 100%;
+        padding: 0.625rem;
+    }
+
+}
