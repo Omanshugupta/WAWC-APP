@@ -1,0 +1,168 @@
+html {
+    background-image: url("sign.jpeg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.border {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    padding: 15px;
+    border: 20px solid rgb(250, 185, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    width: 100%;
+    height: 90%;
+    background-color: rgb(250, 185, 178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.box h2{
+    display: flex;
+    justify-content: center;
+}
+.box form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 99%;
+    
+      
+}
+.box input {
+    padding: 10px;
+    border: 2px solid rgb(250, 185, 178);
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fdf5f4;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img {
+    border-radius: 50%;
+    margin: 5px; 
+}
+.FG{
+    display:flex;
+    justify-content: right;
+    font-size: small;
+    
+}
+.FG a{
+    color:black;
+    text-decoration: none;
+}
+
+.box p{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.box button {
+    cursor: pointer;
+    background-color: darksalmon;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 90%;
+    padding: 10px;
+    margin:10px;
+    border-radius: 5px;
+}
+.box h4{
+    display:flex;
+    justify-content: center;
+    text-decoration: underline;
+    
+}
+.box h4 a{
+    color:black;
+    
+}
+/* RESPONSIVENESS */
+
+/* Medium Screens (Tablets and larger phones) */
+@media (max-width: 768px) {
+    .border {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .box input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .box button {
+        padding: 8px;
+        margin: 8px;
+    }
+
+    .logo img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+/* Small Screens (Phones) */
+@media (max-width: 480px) {
+    html {
+        background-size: contain; /* Adjust background size for smaller screens */
+    }
+
+    .border {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .box {
+        padding: 10px;
+    }
+
+    .box h2 {
+        font-size: 20px;
+    }
+
+    .box input {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .box button {
+        padding: 8px;
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .logo img {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+
+
