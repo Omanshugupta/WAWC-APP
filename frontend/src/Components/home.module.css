@@ -13,7 +13,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('C:\Users\hp\Desktop\kajal folder\WAWC-APP\frontend\src\assets\Home.jpeg');
+
+  /* background-image: url('C:\Users\hp\Desktop\kajal folder\WAWC-APP\frontend\src\assets\Home.jpeg'); */
+
+  background-image: url('../assets/Home.jpeg');
+
   background-size: cover;
   background-position: center;
   z-index: 1; 
