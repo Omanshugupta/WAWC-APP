@@ -36,3 +36,196 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* About Us page  */
+
+/* General Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.background-section {
+  background-image: url('C:\Users\hp\Desktop\kajal folder\WAWC-APP\frontend\src\assets\backimg.png');
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for About Us section */
+.about-us-container {
+  position: relative;
+  padding: 50px 20px;
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+/* About Us heading */
+.about-us-heading {
+  position: absolute;
+  top: 10%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  color: rgba(205, 133, 131, 1);
+  font-weight: bold;
+}
+
+/* Content to the right */
+.about-us-content {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  max-width: 400px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-right: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000;
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .about-us-container {
+    padding: 50px 10px;
+  }
+
+  .about-us-heading {
+    font-size: 2rem;
+    left: 10px;
+  }
+
+  .about-us-content {
+    font-size: 1.2rem;
+    max-width: 350px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us-heading {
+    font-size: 1.8rem;
+    left: 10px;
+  }
+
+  .about-us-content {
+    font-size: 1rem;
+    max-width: 300px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us-heading {
+    font-size: 1.5rem;
+    left: 5px;
+  }
+
+  .about-us-content {
+    font-size: 0.9rem;
+    max-width: 250px;
+    margin-right: 10px;
+  }
+}
+
+/* Vision and Mission Container */
+.vision-mission-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 5px;
+  background-color: rgb(241, 207, 239); /* Shaded background */
+  box-shadow: 10px 4px 8px rgba(233, 167, 220, 0.2); /* Add some shadow */
+  border-radius: 10px;
+}
+
+.vision-section, .mission-section {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: darksalmon;
+  border-radius: 4px;
+  box-shadow: -10px -10px rgb(228, 173, 155);
+}
+
+h2 {
+  color: #f50057;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Who We Are, Our Commitment, Why Choose Us sections */
+.who-we-are-container,
+.commitment-quality-container,
+.why-choose-us-container {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: rgb(241, 207, 239); /* Light shaded background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  color: #f50057;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* p, ul {
+  font-size: 1.0rem;
+  line-height: 1.6;
+} */
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Specific p and ul styles for Who We Are, Commitment, and Why Choose Us sections */
+.who-we-are-container p,
+.commitment-quality-container p,
+.why-choose-us-container p,
+.why-choose-us-container ul,
+.why-choose-us-container li {
+  font-size: 1.2rem; /* Custom size for these sections only */
+  line-height: 1.6;
+}
+
+.who-we-are-container ul,
+.commitment-quality-container ul,
+.why-choose-us-container ul {
+  padding-left: 20px; /* Add padding for unordered lists */
+}
+
+.who-we-are-container li,
+.commitment-quality-container li,
+.why-choose-us-container li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+ /* Ensure that default paragraphs outside */

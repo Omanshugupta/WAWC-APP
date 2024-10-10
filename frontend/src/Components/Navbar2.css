@@ -1,0 +1,40 @@
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color:  rgba(205, 133, 131, 1);; 
+  color: #ffffff; /* White text color */
+  
+}
+
+/* Style for the brand text */
+.navbar .navbar-brand {
+  color: #ffffff !important; /* Force white text color for the brand */
+}
+
+/* Style for the navigation links */
+.navbar .nav-link {
+  color: #ffffff !important; /* Force white text color for the links */
+}
+
+/* Style for navigation links when hovered */
+.navbar .nav-link:hover {
+  color: #cccccc !important; /* Slightly lighter color on hover */
+}
+
+/* Pushes the navigation items to the right side */
+.navbar .navbar-nav {
+  margin-left: auto; /* This ensures the nav items align to the right */
+}
+
+/* Add some spacing between navigation items */
+.navbar .nav-item {
+  margin-left: 15px; /* Adjust spacing as needed */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .navbar .navbar-nav {
+    margin-left: 0;
+    justify-content: center; /* Center the nav items on smaller screens */
+  }
+}
